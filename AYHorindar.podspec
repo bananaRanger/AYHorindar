@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Customizable horizontal calendar view controller.
+  Customizable horizontal calendar view controller that help to navigate through the dates in specific date range.
                        DESC
 
   s.homepage         = 'https://github.com/bananaRanger/AYHorindar'
