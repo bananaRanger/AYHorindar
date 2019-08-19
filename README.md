@@ -43,8 +43,8 @@ end
 
 let calendar = AYHorindarViewController()
 
-calendar.delegate = horindarDataSource
-calendar.uiDelegate = horindarDataSource
+calendar.delegate = horindarDelegate
+calendar.uiDelegate = horindarUIDelegate
 calendar.dataSource = horindarDataSource
 
 someView.addSubview(calendar.view)
