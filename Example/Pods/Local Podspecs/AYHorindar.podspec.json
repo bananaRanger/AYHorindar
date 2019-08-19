@@ -1,0 +1,22 @@
+{
+  "name": "AYHorindar",
+  "version": "0.1.0",
+  "summary": "A short description of AYHorindar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/antonyereshchenko@gmail.com/AYHorindar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "antonyereshchenko@gmail.com": "anton.ereshchenko@powercode.us"
+  },
+  "source": {
+    "git": "https://github.com/antonyereshchenko@gmail.com/AYHorindar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AYHorindar/Classes/**/*"
+}

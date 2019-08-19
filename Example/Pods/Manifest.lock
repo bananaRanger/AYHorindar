@@ -1,0 +1,16 @@
+PODS:
+  - AYHorindar (0.1.0)
+
+DEPENDENCIES:
+  - AYHorindar (from `../`)
+
+EXTERNAL SOURCES:
+  AYHorindar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYHorindar: acd900263cf9fa2626173377209952b7376345fa
+
+PODFILE CHECKSUM: 0465187cb85c9413c5ae0eee4f3b26e800a60b4d
+
+COCOAPODS: 1.7.3

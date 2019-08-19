@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYHorindar_Example' do
+  pod 'AYHorindar', :path => '../'
+
+  target 'AYHorindar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

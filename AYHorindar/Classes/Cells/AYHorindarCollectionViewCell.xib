@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AYHorindarCollectionViewCell" id="gTV-IL-0wX" customClass="AYHorindarCollectionViewCell" customModule="HorizontalCalendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="73" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="73" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWy-6t-171">
+                        <rect key="frame" x="0.0" y="35" width="73" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F26-L3-VBH">
+                        <rect key="frame" x="0.0" y="0.0" width="73" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="BWy-6t-171" firstAttribute="leading" secondItem="F26-L3-VBH" secondAttribute="leading" id="03N-N0-cXv"/>
+                <constraint firstItem="BWy-6t-171" firstAttribute="top" secondItem="F26-L3-VBH" secondAttribute="bottom" id="Cit-9u-aQ0"/>
+                <constraint firstItem="BWy-6t-171" firstAttribute="trailing" secondItem="F26-L3-VBH" secondAttribute="trailing" id="RAa-6e-g6z"/>
+                <constraint firstAttribute="trailing" secondItem="F26-L3-VBH" secondAttribute="trailing" id="RYA-D6-U0g"/>
+                <constraint firstItem="F26-L3-VBH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SxA-kY-uhC"/>
+                <constraint firstItem="F26-L3-VBH" firstAttribute="height" secondItem="BWy-6t-171" secondAttribute="height" id="pN0-cj-p9N"/>
+                <constraint firstAttribute="bottom" secondItem="BWy-6t-171" secondAttribute="bottom" id="wxQ-7D-UpQ"/>
+                <constraint firstItem="F26-L3-VBH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zhd-yX-2qr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="73" height="70"/>
+            <connections>
+                <outlet property="lblBottomText" destination="BWy-6t-171" id="fEL-T5-tj4"/>
+                <outlet property="lblTopText" destination="F26-L3-VBH" id="Rfy-Ia-0zT"/>
+            </connections>
+            <point key="canvasLocation" x="154.34782608695653" y="123.21428571428571"/>
+        </collectionViewCell>
+    </objects>
+</document>

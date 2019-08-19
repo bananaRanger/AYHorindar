@@ -1,0 +1,6 @@
+framework module AYHorindar {
+  umbrella header "AYHorindar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D0F3106A2AF986594D183976E34983 /* Pods-AYHorindar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919EC12CAA20A8752C77762AD52E08EE /* Pods-AYHorindar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE5398010E540FF16951C45DE706A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		17B876AB1485D45DED201B912FFAAEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		409E2D6E230ABD17004293AA /* AYDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D61230ABD17004293AA /* AYDateManager.swift */; };
+		409E2D6F230ABD17004293AA /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D62230ABD17004293AA /* Delegates.swift */; };
+		409E2D70230ABD17004293AA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D64230ABD17004293AA /* Date.swift */; };
+		409E2D71230ABD17004293AA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D65230ABD17004293AA /* UIView.swift */; };
+		409E2D72230ABD17004293AA /* AYHorindarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D66230ABD17004293AA /* AYHorindarDataSource.swift */; };
+		409E2D73230ABD17004293AA /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D67230ABD17004293AA /* NSObject.swift */; };
+		409E2D74230ABD17004293AA /* AYHorindarUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D68230ABD17004293AA /* AYHorindarUIDelegate.swift */; };
+		409E2D75230ABD17004293AA /* AYHorindarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D6A230ABD17004293AA /* AYHorindarCollectionViewCell.swift */; };
+		409E2D76230ABD17004293AA /* AYHorindarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409E2D6B230ABD17004293AA /* AYHorindarCollectionViewCell.xib */; };
+		409E2D77230ABD17004293AA /* AYHorindarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E2D6D230ABD17004293AA /* AYHorindarViewController.swift */; };
+		46183EC66807FB5033F1EBEDA12B7C61 /* Pods-AYHorindar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B0724C8D6BD7E08BDA315817306946 /* Pods-AYHorindar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570DEB3E1A23FBDE66B6C59AC9F65E92 /* AYHorindar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 789170747A2D2921A1BC22CCBFDE5CCE /* AYHorindar-dummy.m */; };
+		92EE014D67D5F8DC3E0C49B258A81108 /* AYHorindar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B5A01BB204BA40F03BAA5DECD4C6A1 /* AYHorindar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3413877E9F91B20E41E0639ABDB21EE /* Pods-AYHorindar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE362A9A78C238CDBF98885D32346B7 /* Pods-AYHorindar_Example-dummy.m */; };
+		DD686D38F3B19D2657669A2C5AC7A510 /* Pods-AYHorindar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD56DF836939457551C89A760946CA /* Pods-AYHorindar_Tests-dummy.m */; };
+		F4DEE46D85E67A3868BDAB46DE3A3E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA94B2B69CFEB3915C8AC105D5C5207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E59F3C4BAFDE0ED5A555836B08A702A;
+			remoteInfo = "Pods-AYHorindar_Example";
+		};
+		ADB3BA7C357D903CACA22B968B112506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B3739D2D180890D0BD0ED19726B4ED;
+			remoteInfo = AYHorindar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02541094D80AEB01F744F0CFDEEF25A4 /* AYHorindar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYHorindar-Info.plist"; sourceTree = "<group>"; };
+		0780EF79152F401B66A546A2B1954829 /* Pods-AYHorindar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYHorindar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A6C7B4BA01459D87C030859D5E3A3A9 /* Pods-AYHorindar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYHorindar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A7B3B2F3ED1E53B7F07DC605B8FC8D2 /* Pods-AYHorindar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYHorindar_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		409E2D61230ABD17004293AA /* AYDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYDateManager.swift; sourceTree = "<group>"; };
+		409E2D62230ABD17004293AA /* Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		409E2D64230ABD17004293AA /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		409E2D65230ABD17004293AA /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		409E2D66230ABD17004293AA /* AYHorindarDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHorindarDataSource.swift; sourceTree = "<group>"; };
+		409E2D67230ABD17004293AA /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		409E2D68230ABD17004293AA /* AYHorindarUIDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHorindarUIDelegate.swift; sourceTree = "<group>"; };
+		409E2D6A230ABD17004293AA /* AYHorindarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHorindarCollectionViewCell.swift; sourceTree = "<group>"; };
+		409E2D6B230ABD17004293AA /* AYHorindarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYHorindarCollectionViewCell.xib; sourceTree = "<group>"; };
+		409E2D6D230ABD17004293AA /* AYHorindarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHorindarViewController.swift; sourceTree = "<group>"; };
+		42B54CBE68BEA91682CE166038B26476 /* Pods-AYHorindar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYHorindar_Example.modulemap"; sourceTree = "<group>"; };
+		4B77822A21A34E8875F490CA9A73035C /* Pods-AYHorindar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYHorindar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C785F06449E527CEC294582BDD49CBE /* Pods_AYHorindar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYHorindar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B0724C8D6BD7E08BDA315817306946 /* Pods-AYHorindar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYHorindar_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C7F82E9B1B49A7A327E0C0C0667D188 /* AYHorindar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYHorindar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6280DF006E6E8E18BA167EC99630F123 /* Pods-AYHorindar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYHorindar_Example-Info.plist"; sourceTree = "<group>"; };
+		6778BE26E35A1337DE4FA7CF47703A70 /* AYHorindar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYHorindar.modulemap; sourceTree = "<group>"; };
+		789170747A2D2921A1BC22CCBFDE5CCE /* AYHorindar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYHorindar-dummy.m"; sourceTree = "<group>"; };
+		829D205B926CEE8410102A6583397B6D /* AYHorindar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYHorindar.xcconfig; sourceTree = "<group>"; };
+		8DE362A9A78C238CDBF98885D32346B7 /* Pods-AYHorindar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYHorindar_Example-dummy.m"; sourceTree = "<group>"; };
+		8F664A1786BE3EA04EA709748FE28718 /* Pods-AYHorindar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYHorindar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		919EC12CAA20A8752C77762AD52E08EE /* Pods-AYHorindar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYHorindar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		96EB9BB49C6E453C091A9895FF5B8240 /* Pods-AYHorindar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYHorindar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99BD56DF836939457551C89A760946CA /* Pods-AYHorindar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYHorindar_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC4702B8D5DCB6CD4F4645700A2F980D /* Pods_AYHorindar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYHorindar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDDB64EB7E8266C9CCD7267ADC072FF /* AYHorindar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYHorindar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B093F956944E4A8A71B2E308A8BE9A19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA691447E2BC6509504E32258EF4A80D /* Pods-AYHorindar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYHorindar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3FEDE7C35C7920A57771EBCA474B57 /* Pods-AYHorindar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYHorindar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF468DAED521EFDB31A275B958DBD862 /* Pods-AYHorindar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYHorindar_Tests-Info.plist"; sourceTree = "<group>"; };
+		E3BB47EFA6FF1F3AD75A5FBD35D583AD /* Pods-AYHorindar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYHorindar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4733610C12D2BF7FDED8C72643E735F /* Pods-AYHorindar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYHorindar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4B5A01BB204BA40F03BAA5DECD4C6A1 /* AYHorindar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYHorindar-umbrella.h"; sourceTree = "<group>"; };
+		E66A8BA7DB280293F50EA740F1E7BCC5 /* AYHorindar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYHorindar-prefix.pch"; sourceTree = "<group>"; };
+		EB1DB75717C68BFF0F8C2BA64DF48913 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD5889DBCCF456AB33B13EFE72F4E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B876AB1485D45DED201B912FFAAEC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE9F146694C0C4AA8A7C56F6C671FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DEE46D85E67A3868BDAB46DE3A3E98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1874E4862B42F1425CE1575DEDEF31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE5398010E540FF16951C45DE706A10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E29A2B50A742BB522DBF13AC8C7B55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6778BE26E35A1337DE4FA7CF47703A70 /* AYHorindar.modulemap */,
+				829D205B926CEE8410102A6583397B6D /* AYHorindar.xcconfig */,
+				789170747A2D2921A1BC22CCBFDE5CCE /* AYHorindar-dummy.m */,
+				02541094D80AEB01F744F0CFDEEF25A4 /* AYHorindar-Info.plist */,
+				E66A8BA7DB280293F50EA740F1E7BCC5 /* AYHorindar-prefix.pch */,
+				E4B5A01BB204BA40F03BAA5DECD4C6A1 /* AYHorindar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYHorindar";
+			sourceTree = "<group>";
+		};
+		08FA92BD083527ABA28DBE0497A6490D /* Pods-AYHorindar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7B3B2F3ED1E53B7F07DC605B8FC8D2 /* Pods-AYHorindar_Tests.modulemap */,
+				0780EF79152F401B66A546A2B1954829 /* Pods-AYHorindar_Tests-acknowledgements.markdown */,
+				0A6C7B4BA01459D87C030859D5E3A3A9 /* Pods-AYHorindar_Tests-acknowledgements.plist */,
+				99BD56DF836939457551C89A760946CA /* Pods-AYHorindar_Tests-dummy.m */,
+				BF468DAED521EFDB31A275B958DBD862 /* Pods-AYHorindar_Tests-Info.plist */,
+				919EC12CAA20A8752C77762AD52E08EE /* Pods-AYHorindar_Tests-umbrella.h */,
+				BD3FEDE7C35C7920A57771EBCA474B57 /* Pods-AYHorindar_Tests.debug.xcconfig */,
+				E4733610C12D2BF7FDED8C72643E735F /* Pods-AYHorindar_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYHorindar_Tests";
+			path = "Target Support Files/Pods-AYHorindar_Tests";
+			sourceTree = "<group>";
+		};
+		10234981EFB6C51663AF56E1AA0D7643 /* AYHorindar */ = {
+			isa = PBXGroup;
+			children = (
+				409E2D69230ABD17004293AA /* Cells */,
+				409E2D63230ABD17004293AA /* Extensions */,
+				409E2D60230ABD17004293AA /* Helpers */,
+				409E2D6C230ABD17004293AA /* Modules */,
+				29799CD6C524F710FCBC1AD530AD1EB4 /* Pod */,
+				04E29A2B50A742BB522DBF13AC8C7B55 /* Support Files */,
+			);
+			name = AYHorindar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		17DD22415E93E31B0BC641AA42CCE8C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10234981EFB6C51663AF56E1AA0D7643 /* AYHorindar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		29799CD6C524F710FCBC1AD530AD1EB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFDDB64EB7E8266C9CCD7267ADC072FF /* AYHorindar.podspec */,
+				EB1DB75717C68BFF0F8C2BA64DF48913 /* LICENSE */,
+				B093F956944E4A8A71B2E308A8BE9A19 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		409E2D60230ABD17004293AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				409E2D61230ABD17004293AA /* AYDateManager.swift */,
+				409E2D62230ABD17004293AA /* Delegates.swift */,
+			);
+			name = Helpers;
+			path = AYHorindar/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		409E2D63230ABD17004293AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				409E2D64230ABD17004293AA /* Date.swift */,
+				409E2D65230ABD17004293AA /* UIView.swift */,
+				409E2D67230ABD17004293AA /* NSObject.swift */,
+				409E2D66230ABD17004293AA /* AYHorindarDataSource.swift */,
+				409E2D68230ABD17004293AA /* AYHorindarUIDelegate.swift */,
+			);
+			name = Extensions;
+			path = AYHorindar/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		409E2D69230ABD17004293AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				409E2D6A230ABD17004293AA /* AYHorindarCollectionViewCell.swift */,
+				409E2D6B230ABD17004293AA /* AYHorindarCollectionViewCell.xib */,
+			);
+			name = Cells;
+			path = AYHorindar/Classes/Cells;
+			sourceTree = "<group>";
+		};
+		409E2D6C230ABD17004293AA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				409E2D6D230ABD17004293AA /* AYHorindarViewController.swift */,
+			);
+			name = Modules;
+			path = AYHorindar/Classes/Modules;
+			sourceTree = "<group>";
+		};
+		937F392EB7C329BBEEEFD723C82DCF16 /* Pods-AYHorindar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				42B54CBE68BEA91682CE166038B26476 /* Pods-AYHorindar_Example.modulemap */,
+				96EB9BB49C6E453C091A9895FF5B8240 /* Pods-AYHorindar_Example-acknowledgements.markdown */,
+				4B77822A21A34E8875F490CA9A73035C /* Pods-AYHorindar_Example-acknowledgements.plist */,
+				8DE362A9A78C238CDBF98885D32346B7 /* Pods-AYHorindar_Example-dummy.m */,
+				8F664A1786BE3EA04EA709748FE28718 /* Pods-AYHorindar_Example-frameworks.sh */,
+				6280DF006E6E8E18BA167EC99630F123 /* Pods-AYHorindar_Example-Info.plist */,
+				51B0724C8D6BD7E08BDA315817306946 /* Pods-AYHorindar_Example-umbrella.h */,
+				BA691447E2BC6509504E32258EF4A80D /* Pods-AYHorindar_Example.debug.xcconfig */,
+				E3BB47EFA6FF1F3AD75A5FBD35D583AD /* Pods-AYHorindar_Example.release.xcconfig */,
+			);
+			name = "Pods-AYHorindar_Example";
+			path = "Target Support Files/Pods-AYHorindar_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C796B41BB7455BA434D4196D35DEEA77 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				937F392EB7C329BBEEEFD723C82DCF16 /* Pods-AYHorindar_Example */,
+				08FA92BD083527ABA28DBE0497A6490D /* Pods-AYHorindar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9EC8FAFF0E2599256B49BAC45B0FC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F82E9B1B49A7A327E0C0C0667D188 /* AYHorindar.framework */,
+				AC4702B8D5DCB6CD4F4645700A2F980D /* Pods_AYHorindar_Example.framework */,
+				4C785F06449E527CEC294582BDD49CBE /* Pods_AYHorindar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				17DD22415E93E31B0BC641AA42CCE8C7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C9EC8FAFF0E2599256B49BAC45B0FC10 /* Products */,
+				C796B41BB7455BA434D4196D35DEEA77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		505C45E404332D0B22E4B4BF396D5D62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D0F3106A2AF986594D183976E34983 /* Pods-AYHorindar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668F54F7FBD43FEE915B155AAFEDFA15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EE014D67D5F8DC3E0C49B258A81108 /* AYHorindar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73940FD362B3A2194AA6367F2EA36CB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46183EC66807FB5033F1EBEDA12B7C61 /* Pods-AYHorindar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E59F3C4BAFDE0ED5A555836B08A702A /* Pods-AYHorindar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7C1AD6EFFED7513D8CD3999D010804 /* Build configuration list for PBXNativeTarget "Pods-AYHorindar_Example" */;
+			buildPhases = (
+				73940FD362B3A2194AA6367F2EA36CB5 /* Headers */,
+				7B7133F954001336027A7A1024BD85B7 /* Sources */,
+				4CD5889DBCCF456AB33B13EFE72F4E64 /* Frameworks */,
+				80E8C51B03A4C0CA0B78A8437394C783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0775DCFC4F1F3E3FA19D7FBDEB63D772 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYHorindar_Example";
+			productName = "Pods-AYHorindar_Example";
+			productReference = AC4702B8D5DCB6CD4F4645700A2F980D /* Pods_AYHorindar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92B3739D2D180890D0BD0ED19726B4ED /* AYHorindar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB0557BEA36E84AEED10706031A6366 /* Build configuration list for PBXNativeTarget "AYHorindar" */;
+			buildPhases = (
+				668F54F7FBD43FEE915B155AAFEDFA15 /* Headers */,
+				D7A093A101BE9A8878AB38A736019AA6 /* Sources */,
+				D0FE9F146694C0C4AA8A7C56F6C671FD /* Frameworks */,
+				66F6BE8C29C09B2B35C54C00E23D5A13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYHorindar;
+			productName = AYHorindar;
+			productReference = 5C7F82E9B1B49A7A327E0C0C0667D188 /* AYHorindar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD098C5740F7C020D4FD0BDB8A961F3D /* Pods-AYHorindar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CF83F5B6E57286FF9F452334DE42B5 /* Build configuration list for PBXNativeTarget "Pods-AYHorindar_Tests" */;
+			buildPhases = (
+				505C45E404332D0B22E4B4BF396D5D62 /* Headers */,
+				2E8EDE1B4E09238AE33764DC75EAA7C8 /* Sources */,
+				D1874E4862B42F1425CE1575DEDEF31C /* Frameworks */,
+				0129FD6B042B2EF16DB0818B905B891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B49993E82FA10EBAF167EA076341011 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYHorindar_Tests";
+			productName = "Pods-AYHorindar_Tests";
+			productReference = 4C785F06449E527CEC294582BDD49CBE /* Pods_AYHorindar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C9EC8FAFF0E2599256B49BAC45B0FC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B3739D2D180890D0BD0ED19726B4ED /* AYHorindar */,
+				6E59F3C4BAFDE0ED5A555836B08A702A /* Pods-AYHorindar_Example */,
+				AD098C5740F7C020D4FD0BDB8A961F3D /* Pods-AYHorindar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0129FD6B042B2EF16DB0818B905B891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F6BE8C29C09B2B35C54C00E23D5A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E2D76230ABD17004293AA /* AYHorindarCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E8C51B03A4C0CA0B78A8437394C783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8EDE1B4E09238AE33764DC75EAA7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD686D38F3B19D2657669A2C5AC7A510 /* Pods-AYHorindar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7133F954001336027A7A1024BD85B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3413877E9F91B20E41E0639ABDB21EE /* Pods-AYHorindar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A093A101BE9A8878AB38A736019AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E2D6F230ABD17004293AA /* Delegates.swift in Sources */,
+				409E2D75230ABD17004293AA /* AYHorindarCollectionViewCell.swift in Sources */,
+				409E2D73230ABD17004293AA /* NSObject.swift in Sources */,
+				409E2D70230ABD17004293AA /* Date.swift in Sources */,
+				570DEB3E1A23FBDE66B6C59AC9F65E92 /* AYHorindar-dummy.m in Sources */,
+				409E2D77230ABD17004293AA /* AYHorindarViewController.swift in Sources */,
+				409E2D74230ABD17004293AA /* AYHorindarUIDelegate.swift in Sources */,
+				409E2D71230ABD17004293AA /* UIView.swift in Sources */,
+				409E2D6E230ABD17004293AA /* AYDateManager.swift in Sources */,
+				409E2D72230ABD17004293AA /* AYHorindarDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0775DCFC4F1F3E3FA19D7FBDEB63D772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYHorindar;
+			target = 92B3739D2D180890D0BD0ED19726B4ED /* AYHorindar */;
+			targetProxy = ADB3BA7C357D903CACA22B968B112506 /* PBXContainerItemProxy */;
+		};
+		9B49993E82FA10EBAF167EA076341011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYHorindar_Example";
+			target = 6E59F3C4BAFDE0ED5A555836B08A702A /* Pods-AYHorindar_Example */;
+			targetProxy = 2BA94B2B69CFEB3915C8AC105D5C5207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE736C2DD4F8696BA972D5475867F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BB47EFA6FF1F3AD75A5FBD35D583AD /* Pods-AYHorindar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYHorindar_Example/Pods-AYHorindar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYHorindar_Example/Pods-AYHorindar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82EA6497F3AEEFFE1EAA8D33F3B0BCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3FEDE7C35C7920A57771EBCA474B57 /* Pods-AYHorindar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYHorindar_Tests/Pods-AYHorindar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYHorindar_Tests/Pods-AYHorindar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A04B6C3AC013321ED31E1D510FFA6B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA691447E2BC6509504E32258EF4A80D /* Pods-AYHorindar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYHorindar_Example/Pods-AYHorindar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYHorindar_Example/Pods-AYHorindar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0EAAB04689AEE21321B5445F6D129D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4733610C12D2BF7FDED8C72643E735F /* Pods-AYHorindar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYHorindar_Tests/Pods-AYHorindar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYHorindar_Tests/Pods-AYHorindar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBB5D4FA11F66639CB0A7BB375BC4679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829D205B926CEE8410102A6583397B6D /* AYHorindar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYHorindar/AYHorindar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYHorindar/AYHorindar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYHorindar/AYHorindar.modulemap";
+				PRODUCT_MODULE_NAME = AYHorindar;
+				PRODUCT_NAME = AYHorindar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE790614D67E43D12B69D24D2E133D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829D205B926CEE8410102A6583397B6D /* AYHorindar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYHorindar/AYHorindar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYHorindar/AYHorindar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYHorindar/AYHorindar.modulemap";
+				PRODUCT_MODULE_NAME = AYHorindar;
+				PRODUCT_NAME = AYHorindar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7C1AD6EFFED7513D8CD3999D010804 /* Build configuration list for PBXNativeTarget "Pods-AYHorindar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04B6C3AC013321ED31E1D510FFA6B99 /* Debug */,
+				0BE736C2DD4F8696BA972D5475867F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB0557BEA36E84AEED10706031A6366 /* Build configuration list for PBXNativeTarget "AYHorindar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE790614D67E43D12B69D24D2E133D54 /* Debug */,
+				DBB5D4FA11F66639CB0A7BB375BC4679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CF83F5B6E57286FF9F452334DE42B5 /* Build configuration list for PBXNativeTarget "Pods-AYHorindar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EA6497F3AEEFFE1EAA8D33F3B0BCAC /* Debug */,
+				B0EAAB04689AEE21321B5445F6D129D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
