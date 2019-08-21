@@ -60,6 +60,8 @@ public protocol AYHorindarUIDelegate: class {
   
   func contentInsets() -> UIEdgeInsets
   
+  func itemWidth() -> CGFloat
+  
   func spacing() -> CGFloat
   
   func topLabelFont() -> UIFont

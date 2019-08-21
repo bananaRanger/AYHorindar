@@ -31,7 +31,11 @@ public extension AYHorindarUIDelegate {
   func contentInsets() -> UIEdgeInsets {
     return .zero
   }
-    
+  
+  func itemWidth() -> CGFloat {
+    return 30
+  }
+ 
   func spacing() -> CGFloat {
     return 0
   }

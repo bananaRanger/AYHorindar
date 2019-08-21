@@ -40,6 +40,7 @@ public class AYHorindarViewController: UIViewController {
     let layout = UICollectionViewFlowLayout()
     layout.scrollDirection = .horizontal
     guard let uiDelegate = uiDelegate else { return layout }
+    layout.itemSize.width = uiDelegate.itemWidth()
     layout.minimumInteritemSpacing = uiDelegate.spacing()
     layout.sectionInset = uiDelegate.contentInsets()
     layout.minimumLineSpacing = uiDelegate.spacing()
@@ -85,11 +86,6 @@ public class AYHorindarViewController: UIViewController {
       object: nil)
   }
   
-  public override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    didRotate(notification: nil)
-  }
-  
   public override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
     NotificationCenter.default.removeObserver(
@@ -115,6 +111,11 @@ public class AYHorindarViewController: UIViewController {
     
     collectionViewAnimating()
     currentDateDetecting()
+  }
+  
+  public override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    super.traitCollectionDidChange(previousTraitCollection)
+    didRotate(notification: nil)
   }
 }
 
