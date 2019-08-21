@@ -34,7 +34,7 @@ public class AYHorindarViewController: UIViewController {
   
   private var dates = [Date]()
   
-  private var previousCurrentDate: Date?
+  private var currentDate: Date?
 
   private var layout: UICollectionViewFlowLayout {
     let layout = UICollectionViewFlowLayout()
@@ -78,13 +78,16 @@ public class AYHorindarViewController: UIViewController {
       between: dataSource?.dateFrom(),
       and: dataSource?.dateTo())
     
-    previousCurrentDate = dataSource?.selectedDate() ?? Date()
-    
     NotificationCenter.default.addObserver(
       self,
       selector: #selector(didRotate(notification:)),
       name: UIDevice.orientationDidChangeNotification,
       object: nil)
+  }
+  
+  public override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    didRotate(notification: nil)
   }
   
   public override func viewWillDisappear(_ animated: Bool) {
@@ -98,19 +101,20 @@ public class AYHorindarViewController: UIViewController {
   public override func viewWillLayoutSubviews() {
     super.viewWillLayoutSubviews()
     collectionView.collectionViewLayout.invalidateLayout()
-    collectionViewAnimating()
   }
   
-  @objc func didRotate(notification: Notification) {
+  @objc func didRotate(notification: Notification?) {
+    let date = currentDate ?? dataSource?.selectedDate()
     guard let index = dates.firstIndex(
-      where: { $0.isSpecificDay(previousCurrentDate) } ) else { return }
-    
-    collectionView.selectItem(
+      where: { $0.isSpecificDay(date) } ) else { return }
+
+    collectionView.scrollToItem(
       at: IndexPath(row: index, section: 0),
-      animated: true,
-      scrollPosition: .centeredHorizontally)
+      at: .centeredHorizontally,
+      animated: true)
     
     collectionViewAnimating()
+    currentDateDetecting()
   }
 }
 
@@ -141,7 +145,7 @@ extension AYHorindarViewController: UICollectionViewDataSource {
       weekday,
       day: date.day,
       itemDisplayType: dataSource?.itemDisplayType())
-        
+    
     return cell
   }
 }
@@ -167,7 +171,7 @@ extension AYHorindarViewController: UICollectionViewDelegateFlowLayout {
     collectionView.scrollToItem(
       at: indexPath,
       at: .centeredHorizontally,
-      animated: true)    
+      animated: true)
   }
 
   public func collectionView(_ collectionView: UICollectionView,
@@ -202,6 +206,7 @@ fileprivate extension AYHorindarViewController {
 
     guard let index = collectionView.indexPathForItem(at: initialPinchPoint) else { return }
     collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
+    currentDate = dates[index.row]
   }
   
   func collectionViewAnimating() {
@@ -236,8 +241,15 @@ fileprivate extension AYHorindarViewController {
       y: collectionView.center.y + collectionView.contentOffset.y);
     
     guard let index = collectionView.indexPathForItem(at: initialPinchPoint) else { return }
-    if previousCurrentDate?.isSpecificDay(dates[index.row]) == false {
-      previousCurrentDate = dates[index.row]
+    
+    if currentDate == nil &&
+      dates[index.row].isSpecificDay(dataSource?.selectedDate()) == true {
+      currentDate = dates[index.row]
+      delegate?.current(date: dates[index.row])
+    }
+    
+    if currentDate?.isSpecificDay(dates[index.row]) == false {
+      currentDate = dates[index.row]
       delegate?.current(date: dates[index.row])
     }
     

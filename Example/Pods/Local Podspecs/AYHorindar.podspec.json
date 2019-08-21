@@ -1,22 +1,24 @@
 {
   "name": "AYHorindar",
-  "version": "0.1.0",
-  "summary": "A short description of AYHorindar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/antonyereshchenko@gmail.com/AYHorindar",
+  "version": "1.0.1",
+  "summary": "AYHorindarViewController - is a customizable horizontal calendar view controller.",
+  "description": "Customizable horizontal calendar view controller that help to navigate through the dates in specific date range.",
+  "homepage": "https://github.com/bananaRanger/AYHorindar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "antonyereshchenko@gmail.com": "anton.ereshchenko@powercode.us"
+    "Anton Yereshchenko": "antonyereshchenko@gmail.com"
   },
   "source": {
-    "git": "https://github.com/antonyereshchenko@gmail.com/AYHorindar.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/bananaRanger/AYHorindar.git",
+    "tag": "1.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "AYHorindar/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "AYHorindar/Classes/**/*",
+  "swift_version": "5.0"
 }

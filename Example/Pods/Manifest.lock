@@ -1,5 +1,5 @@
 PODS:
-  - AYHorindar (0.1.0)
+  - AYHorindar (1.0.1)
 
 DEPENDENCIES:
   - AYHorindar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AYHorindar: acd900263cf9fa2626173377209952b7376345fa
+  AYHorindar: c78f1146378bef5413cca5831fea83931ffc1eb8
 
 PODFILE CHECKSUM: 0465187cb85c9413c5ae0eee4f3b26e800a60b4d
 
