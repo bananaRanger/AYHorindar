@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYHorindar'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'AYHorindarViewController - is a customizable horizontal calendar view controller.'
 
 # This description is used to generate tags and improve search results.
